@@ -107,7 +107,14 @@ exports.init = (options = {
 Object.defineProperty(exports, "__esModule", { value: true });
 const accordionTemplate = document.createElement('template');
 accordionTemplate.innerHTML = `
-    <div>
+    <style>
+        .aurum-accordion-container {
+            border: 1px solid gray;
+            padding: 4px;
+            border-radius:4px;
+        }
+    </style>
+    <div class="aurum-accordion-container">
         <div>Accordion Title</div>
         <div>Accordion Content Area</div>
     </div>

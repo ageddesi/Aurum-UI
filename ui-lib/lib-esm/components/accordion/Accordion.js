@@ -5,14 +5,11 @@ accordionTemplate.innerHTML = `
         <div>Accordion Content Area</div>
     </div>
 `;
-
 export class Accordion extends HTMLElement {
-    private _shadowRoot;
-
-    constructor(){
+    constructor() {
         super();
-        this._shadowRoot = this.attachShadow({ mode: 'open'})
-        this._shadowRoot.appendChild(accordionTemplate.content.cloneNode(true))
+        this._shadowRoot = this.attachShadow({ mode: 'open' });
+        this._shadowRoot.appendChild(accordionTemplate.content.cloneNode(true));
     }
-
 }
+//# sourceMappingURL=Accordion.js.map

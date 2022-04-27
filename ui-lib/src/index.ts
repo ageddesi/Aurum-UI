@@ -1,10 +1,17 @@
-import {AurumOptionsType} from "./types/AurumOptionsType";
+import {AurumUIOptions} from "./types/AurumUIOptions";
 import {Accordion} from "./components/accordion/Accordion";
 
-const initAurumUI = (options: AurumOptionsType) => {
-  const prefix = (options.prefix ?? "aurum") + "-";
-
-  // Initialize Components, keep this alphabetical.
-  customElements.define(`${prefix}accordion`, Accordion);
-
+export const init = (options : AurumUIOptions = {
+    prefix: "aurum"
+}) => {
+    // Initalize web components by alphabetical order.
+    window.customElements.define(`${options.prefix}-accordion`, Accordion)
 }
+
+(function() {
+    // @ts-ignore
+    window.AurumUi = {
+        init
+    };
+}());
+

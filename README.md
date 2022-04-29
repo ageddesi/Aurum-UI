@@ -1,6 +1,8 @@
 ## Aurum UI
 
-A set of UI web components
+A selection of UI web components by Aaron Rackley. To learn more about this project and keep up to date, I release regular updated over on my blog www.aaronsserver.co.uk
+
+
 
 ## License
 

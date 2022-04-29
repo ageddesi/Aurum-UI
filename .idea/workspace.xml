@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,16 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d35630-4120-4407-b711-cbde984f379a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ui-lib/src/Global.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-lib/src/components/icons/ChevronDownIcon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-lib/src/components/icons/ChevronUpIcon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-lib/src/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-playground/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +57,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28OSXKWR9tJFR7KngP1rt5U7wJx" />
   <component name="ProjectViewState">
@@ -53,8 +75,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,6 +98,9 @@
       <option name="presentableId" value="Default" />
       <updated>1651086176434</updated>
       <workItem from="1651086177946" duration="6396000" />
+      <workItem from="1651152366575" duration="8226000" />
+      <workItem from="1651228815981" duration="91000" />
+      <workItem from="1651266545424" duration="4777000" />
     </task>
     <servers />
   </component>
@@ -90,15 +117,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1651086444378">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1651086444378" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1651087355814">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1651087355814" />
   </component>
 </project>

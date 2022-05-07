@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d35630-4120-4407-b711-cbde984f379a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ui-lib/src/Global.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-lib/src/components/icons/ChevronDownIcon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-lib/src/components/icons/ChevronUpIcon.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-lib/src/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/_bundles/aurum-ui.min.js" afterDir="false" />
@@ -36,17 +31,11 @@
       <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/components/accordion/Accordion.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/lib-esm/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib-esm/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-playground/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,5 +106,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts</url>
+          <line>79</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

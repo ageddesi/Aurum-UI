@@ -33,20 +33,26 @@
     <h2>Accordion</h2>
     <script src="https://gist.github.com/ageddesi/a066ef31f89e675af3654c5b9ac74af8.js"></script>
     <p>
-      <strong>Attributes available</strong><br/>
+      <h3>Attributes available</h3>
       <strong>title</strong> - text to be displayed in the title of the accordion.
     </p>
-    <h3>Component Preview</h3>
-    <hr/>
-    <aurum-accordion title="This is an example title test">
-      This is some content that will appear when needed, <b>Boom yer</b>. This is awesome
-    </aurum-accordion>
+    <p>
+      <h3>Events</h3>
+      <strong>keyboard</strong> - When the Accordion title is in focus, you can use the "space" or "enter" keys to toggle the drawer
+    </p>
+    <p>
+      <h3>Component Preview</h3>
+      <aurum-accordion title="This is an example title test">
+        This is some content that will appear when needed, <b>Boom yer</b>. This is awesome
+      </aurum-accordion>
+    </p>
   </div>
 
   <div class="page-container" style="margin-top: 20px;">
     <h2>Release History</h2>
-    <p>Current version <strong>0.0.1</strong></p>
+    <p>Current version <strong>0.0.2</strong></p>
 
+    <p>0.0.2 - (07.05.2022) Added Tab Indexing and Event listening to Accordion to open up drawer.</p>
     <p>0.0.1 - (29.04.2022) Added Accordion component</p>
   </div>
 
@@ -98,8 +104,13 @@
     }
 
     h2{
-      margin:0;
-      margin-bottom: 8px;
+      margin: 0 0 8px;
+    }
+
+    h3{
+      margin: 0 0 8px;
+      background-image: linear-gradient(225deg, white 75%, #fbb034 40%, #ffdd00 100%);
+      padding: 4px;
     }
 
   </style>

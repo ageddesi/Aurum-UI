@@ -28,22 +28,22 @@ accordionTemplate.innerHTML = `
             padding: ${theme_1.AurumTheme.PaddingSmall};
             border: 1px solid ${theme_1.AurumTheme.ColorsGrayLight};
         }
-        .upIcon{
+        .up-icon{
             display: none;
         }
     </style>
 
     <div class="aurum-accordion-container">
-        <div class="aurum-accordion-title">
+        <div class="aurum-accordion-title" tabIndex="0">
             <div class="aurum-accordion-title-text">
                 <!-- Accordion Title -->
             </div>
             <div class="aurum-accordion-title-icon-container">
-                <aurum-icon-chevron-down class="downIcon"></aurum-icon-chevron-down>
-                <aurum-icon-chevron-up class="upIcon"></aurum-icon-chevron-up>
+                <aurum-icon-chevron-down class="down-icon"></aurum-icon-chevron-down>
+                <aurum-icon-chevron-up class="up-icon"></aurum-icon-chevron-up>
             </div>
         </div>
-        <div class="aurum-accordion-content">
+        <div class="aurum-accordion-content" tabIndex="1">
             <!-- Accordion Content -->
             <slot></slot>
         </div>
@@ -52,12 +52,18 @@ accordionTemplate.innerHTML = `
 class Accordion extends HTMLElement {
     constructor() {
         super();
+        this._shadowRoot = null;
+        this._titleContainer = null;
+        this._titleText = null;
+        this._contentContainer = null;
         this._currentlyOpen = false;
         this._shadowRoot = this.attachShadow({ mode: 'open' });
         this._shadowRoot.appendChild(accordionTemplate.content.cloneNode(true));
         this._titleText = this._shadowRoot.querySelector(".aurum-accordion-title-text");
         this._titleContainer = this._shadowRoot.querySelector(".aurum-accordion-title");
         this._contentContainer = this._shadowRoot.querySelector(".aurum-accordion-content");
+        this._upIcon = this._shadowRoot.querySelector(".up-icon");
+        this._downIcon = this._shadowRoot.querySelector(".down-icon");
     }
     get title() { return this.getAttribute('title'); }
     set title(newValue) { this.setAttribute('title', newValue); }
@@ -69,14 +75,32 @@ class Accordion extends HTMLElement {
         this._titleText.innerText = newValue;
     }
     connectedCallback() {
-        this._titleContainer.onclick = () => {
-            this._currentlyOpen = !this._currentlyOpen;
-            const downIcon = this._shadowRoot.querySelector('.downIcon');
-            downIcon.style.display = this._currentlyOpen ? 'none' : 'block';
-            const upIcon = this._shadowRoot.querySelector('.upIcon');
-            upIcon.style.display = !this._currentlyOpen ? 'none' : 'block';
-            this._contentContainer.style.display = this._currentlyOpen ? 'block' : 'none';
-        };
+        this._upIcon.style.display = 'none';
+        this._downIcon.style.display = 'block';
+        this._titleContainer.addEventListener('click', (e) => this.handleOpenCloseDrawer(e));
+        this._titleContainer.addEventListener('keypress', (e) => this.handleKeyboardEvent(e));
+    }
+    disconnectedCallback() {
+        this._titleContainer.removeEventListener('click', this.handleOpenCloseDrawer);
+        this._titleContainer.removeEventListener('keypress', this.handleKeyboardEvent);
+    }
+    /**
+     * Handle keyboard event to check for opening of the accordion
+     */
+    handleKeyboardEvent(e) {
+        if (e.key === " " || e.code === "Space" ||
+            e.key === "Enter" || e.key === "Enter") {
+            this.handleOpenCloseDrawer(e);
+        }
+    }
+    /**
+     * Handle the toggle between opening / closing of the accordion drawer.
+     */
+    handleOpenCloseDrawer(e) {
+        this._currentlyOpen = !this._currentlyOpen;
+        this._downIcon.style.display = this._currentlyOpen ? 'none' : 'block';
+        this._upIcon.style.display = !this._currentlyOpen ? 'none' : 'block';
+        this._contentContainer.style.display = this._currentlyOpen ? 'block' : 'none';
     }
 }
 exports.Accordion = Accordion;

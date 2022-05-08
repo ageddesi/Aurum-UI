@@ -34,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/lib/components/accordion/Accordion.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-playground/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-playground/index.html" afterDir="false" />
     </list>
@@ -53,6 +52,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,6 +97,7 @@
       <workItem from="1651152366575" duration="8226000" />
       <workItem from="1651228815981" duration="91000" />
       <workItem from="1651266545424" duration="4777000" />
+      <workItem from="1651999407820" duration="1179000" />
     </task>
     <servers />
   </component>
@@ -112,8 +120,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/ui-lib/src/components/accordion/Accordion.ts</url>
-          <line>79</line>
-          <properties lambdaOrdinal="-1" />
+          <line>93</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

@@ -1,6 +1,7 @@
 export declare class Accordion extends HTMLElement {
     private _shadowRoot;
     private _titleContainer;
+    private _titleButton;
     private _titleText;
     private _contentContainer;
     private _currentlyOpen;
@@ -8,6 +9,7 @@ export declare class Accordion extends HTMLElement {
     private _upIcon;
     constructor();
     title: string;
+    readonly id: string;
     static readonly observedAttributes: string[];
     attributeChangedCallback(name: any, oldValue: any, newValue: any): void;
     connectedCallback(): void;

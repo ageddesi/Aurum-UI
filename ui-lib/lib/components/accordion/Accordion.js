@@ -15,6 +15,14 @@ accordionTemplate.innerHTML = `
             padding: ${theme_1.AurumTheme.PaddingSmall};
             display: flex;
             align-items: center;
+            margin: 0;
+        }
+        .aurum-accordion-title-button{
+            display: flex;
+            flex-grow: 1;
+            border:0;
+            align-items: center;
+            text-align: left;
         }
         .aurum-accordion-title-text{
             flex-grow: 1;
@@ -34,16 +42,19 @@ accordionTemplate.innerHTML = `
     </style>
 
     <div class="aurum-accordion-container">
-        <div class="aurum-accordion-title" tabIndex="0">
-            <div class="aurum-accordion-title-text">
-                <!-- Accordion Title -->
-            </div>
-            <div class="aurum-accordion-title-icon-container">
-                <aurum-icon-chevron-down class="down-icon"></aurum-icon-chevron-down>
-                <aurum-icon-chevron-up class="up-icon"></aurum-icon-chevron-up>
-            </div>
-        </div>
-        <div class="aurum-accordion-content" tabIndex="1">
+        <h3 class="aurum-accordion-title" tabIndex="0">
+            <button class="aurum-accordion-title-button" aria-expanded="false">
+                <div class="aurum-accordion-title-text">
+                    <!-- Accordion Title -->
+                </div>
+                <div class="aurum-accordion-title-icon-container">
+                    <aurum-icon-chevron-down class="down-icon"></aurum-icon-chevron-down>
+                    <aurum-icon-chevron-up class="up-icon"></aurum-icon-chevron-up>
+                </div>
+            </button>
+        </h3>
+        
+        <div class="aurum-accordion-content" tabIndex="1" role="region">
             <!-- Accordion Content -->
             <slot></slot>
         </div>
@@ -54,6 +65,7 @@ class Accordion extends HTMLElement {
         super();
         this._shadowRoot = null;
         this._titleContainer = null;
+        this._titleButton = null;
         this._titleText = null;
         this._contentContainer = null;
         this._currentlyOpen = false;
@@ -61,12 +73,14 @@ class Accordion extends HTMLElement {
         this._shadowRoot.appendChild(accordionTemplate.content.cloneNode(true));
         this._titleText = this._shadowRoot.querySelector(".aurum-accordion-title-text");
         this._titleContainer = this._shadowRoot.querySelector(".aurum-accordion-title");
+        this._titleButton = this._shadowRoot.querySelector(".aurum-accordion-title-button");
         this._contentContainer = this._shadowRoot.querySelector(".aurum-accordion-content");
         this._upIcon = this._shadowRoot.querySelector(".up-icon");
         this._downIcon = this._shadowRoot.querySelector(".down-icon");
     }
     get title() { return this.getAttribute('title'); }
     set title(newValue) { this.setAttribute('title', newValue); }
+    get id() { return this.getAttribute('id'); }
     static get observedAttributes() {
         return ['title'];
     }
@@ -75,10 +89,17 @@ class Accordion extends HTMLElement {
         this._titleText.innerText = newValue;
     }
     connectedCallback() {
+        // Handle Visual Setup
         this._upIcon.style.display = 'none';
         this._downIcon.style.display = 'block';
+        // Handle Event Setup
         this._titleContainer.addEventListener('click', (e) => this.handleOpenCloseDrawer(e));
         this._titleContainer.addEventListener('keypress', (e) => this.handleKeyboardEvent(e));
+        // Setup Aria
+        this._titleContainer.setAttribute('id', this.id);
+        this._titleButton.setAttribute('aria-controls', this.id + '-container');
+        this._contentContainer.setAttribute('id', this.id + '-container');
+        this._contentContainer.setAttribute('aria-labelledy', this.id);
     }
     disconnectedCallback() {
         this._titleContainer.removeEventListener('click', this.handleOpenCloseDrawer);
@@ -97,10 +118,13 @@ class Accordion extends HTMLElement {
      * Handle the toggle between opening / closing of the accordion drawer.
      */
     handleOpenCloseDrawer(e) {
+        // Handle Visual Changes
         this._currentlyOpen = !this._currentlyOpen;
         this._downIcon.style.display = this._currentlyOpen ? 'none' : 'block';
         this._upIcon.style.display = !this._currentlyOpen ? 'none' : 'block';
         this._contentContainer.style.display = this._currentlyOpen ? 'block' : 'none';
+        // Handle Aria
+        this._titleButton.setAttribute('aria-expanded', this._currentlyOpen.toString());
     }
 }
 exports.Accordion = Accordion;

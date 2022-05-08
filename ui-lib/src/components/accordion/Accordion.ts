@@ -122,7 +122,7 @@ export class Accordion extends HTMLElement {
      */
     handleKeyboardEvent(e : KeyboardEvent){
         if(e.key === " " || e.code === "Space" ||
-            e.key === "Enter" || e.key === "Enter") {
+            e.key === "Enter" || e.code === "Enter") {
             this.handleOpenCloseDrawer(e);
         }
     }

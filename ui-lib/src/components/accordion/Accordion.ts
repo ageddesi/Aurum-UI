@@ -109,7 +109,7 @@ export class Accordion extends HTMLElement {
         this._titleContainer.setAttribute('id', this.id);
         this._titleButton.setAttribute('aria-controls',this.id + '-container');
         this._contentContainer.setAttribute('id', this.id + '-container')
-        this._contentContainer.setAttribute('aria-labelledy', this.id)
+        this._contentContainer.setAttribute('aria-labelledBy', this.id)
     }
 
     disconnectedCallback(){

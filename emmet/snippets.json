@@ -1,8 +1,0 @@
-{
-  "html": {
-    "snippets": {
-      "aui-ac-g" : "aurum-accordion-group>aurum-accordion*3",
-      "aui-ac" : "aurum-accordion"
-    }
-  }
-}

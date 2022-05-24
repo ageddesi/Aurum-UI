@@ -1,6 +1,11 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
-node_modules
-dist
-.cache
+/node_modules/
+/lib/
+/test/
+custom-elements.json
+# top level source
+my-element.js
+my-element.js.map
+my-element.d.ts
+my-element.d.ts.map
+# only generated for size check
+my-element.bundled.js

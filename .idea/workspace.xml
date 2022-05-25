@@ -23,54 +23,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7d35630-4120-4407-b711-cbde984f379a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/emmet/snippets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/.eleventy.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/.eslintignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/.prettierrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/dev/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/dev/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/.eleventyignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_data/api.11tydata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/example.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/footer.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/header.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/nav.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/page.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/_includes/relative-path.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/api.11ty.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/docs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/examples/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/examples/name-property.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/install.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs-src/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/api/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/docs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/examples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/examples/name-property/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/install/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/docs/prism-okaidia.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/rollup.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/src/accordion/accordion-group.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/src/accordion/accordion.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/src/test/my-element_test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/web-dev-server.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-lib-lite/web-test-runner.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/content/en/components/accordion-group.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/content/en/components/accordion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/0a4cdd1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/0cecc56.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/16f97b4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/23196a2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/24d70eb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/2a54a15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/3757e42.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/3eb6f51.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/4b56295.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/4eb254a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/4f72cb6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/5049b47.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/530233e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/5a69b03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/6f1a04f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/781cc85.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/8479498.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/8a1ba91.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/8b8f8cf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/9988b76.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/9c5be9a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/LICENSES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/acb5c81.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/acd5c75.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/b505b68.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/b87526a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/content/db-111fc4f6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/d198c84.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/d1e3f5e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/e0b1a17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/e73962c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/ee2e32f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_120x120.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_144x144.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_152x152.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_192x192.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_384x384.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_512x512.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/icon_64x64.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_ipad_1536x2048.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_ipadpro10_1668x2224.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_ipadpro12_2048x2732.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_ipadpro9_1536x2048.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphone6_50x1334.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphoneplus_1080x1920.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphonese_640x1136.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphonex_1125x2436.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphonexr_828x1792.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/icons/splash_iphonexsmax_1242x2688.8f91ea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/manifest.b899543a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/components/accordion-group/payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/components/accordion-group/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/components/accordion/payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/components/accordion/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/manifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/releases/payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/releases/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/setup/payload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/setup/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/_nuxt/static/1653496048/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/components/accordion-group/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/components/accordion/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/preview-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/releases/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aurum-ui-docs/docs/setup/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/.eleventyignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_data/api.11tydata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/example.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/footer.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/header.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/nav.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/page.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/_includes/relative-path.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/api.11ty.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/examples/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/examples/name-property.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs-src/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.nojekyll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/docs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/name-property/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/install/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/prism-okaidia.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +140,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aurum-ui-docs" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -112,18 +165,22 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Development/aurum-ui/aurum-ui-docs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\Development\\aurum-ui\\node_modules\\prettier",
     "settings.editor.selected.configurable": "reference.idesettings.emmet",
-    "ts.external.directory.path": "D:\\Development\\aurum-ui\\ui-lib-lite\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\Development\\aurum-ui\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\aurum-ui\aurum-ui-docs" />
+      <recent name="D:\Development\aurum-ui\aurum-ui-docs\content\en\components" />
       <recent name="D:\Development\aurum-ui" />
       <recent name="D:\Development\aurum-ui\ui-lib-vite\src" />
       <recent name="D:\Development\aurum-ui\ui-docs\.nuxt\content" />
@@ -165,6 +222,8 @@
       <workItem from="1653392877127" duration="4767000" />
       <workItem from="1653406336960" duration="7234000" />
       <workItem from="1653420972937" duration="220000" />
+      <workItem from="1653462926255" duration="31000" />
+      <workItem from="1653494416780" duration="1670000" />
     </task>
     <servers />
   </component>

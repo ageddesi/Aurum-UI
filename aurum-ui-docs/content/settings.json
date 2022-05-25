@@ -1,0 +1,10 @@
+{
+  "title": "Aurum UI",
+  "url": "",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "ageddesi",
+  "twitter": "@aaron_rackley"
+}

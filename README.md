@@ -1,3 +1,9 @@
+# Aurum UI Web Component Library 
+
+This project is a collection of UI Web Components built by Aaron Rackley on top of the LitElement Typescript Project
+
+---
+
 # LitElement TypeScript starter
 
 This project includes a sample component using LitElement with TypeScript.

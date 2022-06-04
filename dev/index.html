@@ -8,6 +8,7 @@
     <script src="../node_modules/lit/polyfill-support.js"></script>
     <script type="module" src="../dist/accordion/accordion-group.js"></script>
     <script type="module" src="../dist/accordion/accordion.js"></script>
+    <script type="module" src="../dist/badge/badge.js"></script>
   </head>
   <body>
     <style>
@@ -29,8 +30,7 @@
         text-align: left;
         margin: 0 0 8px;
       }
-
-      .h3{
+      h3{
         font-family: Open Sans;
         font-size: 20px;
         font-weight: 400;
@@ -40,6 +40,151 @@
         margin: 0 0 8px;
       }
     </style>
+    <h1>Badges</h1>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; gap: 20px">
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge shape="rectangle">
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded">
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded-small">
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge design="outlined" shape="rectangle">
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded">
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded-small">
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge shape="rectangle">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded-small">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge design="outlined" shape="rectangle">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded-small">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge shape="rectangle" selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded"  selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded-small" selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge design="outlined" shape="rectangle" selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded" selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded-small" selectable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge shape="rectangle" selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded"  selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge shape="rounded-small" selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <aurum-badge design="outlined" shape="rectangle" selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded" selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+        <aurum-badge design="outlined" shape="rounded-small" selectable="true" closable="true">
+          <svg slot="icon" style="width:20px" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Badge
+        </aurum-badge>
+      </div>
+    </div>
     <h1>Accordion Group</h1>
     <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px">
       <div>
